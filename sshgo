@@ -352,7 +352,7 @@ class SSHGO:
 
             host_info = re.split(':', node['line'].strip())
 
-            port = '22'
+            port = '3306'
             host = ''
 
             if len(host_info) == 2 :
@@ -365,7 +365,7 @@ class SSHGO:
             if nest_parent:
                 nest_host_info = re.split(':', nest_parent['line'].strip())
 
-                nest_port = '22'
+                nest_port = '3306'
                 nest_host = ''
 
                 if len(nest_host_info) == 2 :

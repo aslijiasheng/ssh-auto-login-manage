@@ -1,12 +1,12 @@
 deploy
-    1.1.1.1  user1  password1
-    2.2.2.2  user2  #use Public key authentication
-    3.3.3.3  user3 -i /path/to/id_file.pem  #use id file to login
-Online-1
-    4.4.4.4 user password #the first node will default as the below server's jumper server,if below server with section of indent
-    intenal.server # below servers will use 4.4.4.4 as the jumper server
-        10.0.2.10 user3 password3
-        10.0.2.11 user4 password4
-Online-2
-    5.5.5.5:22222 user5 password5 #use the special port
-    6.6.6.6 user6 password6
+    #1.1.1.1  user1  password1
+    127.0.0.1  root  871027
+weimob-master
+    127.0.0.1:53881  wm_fffxxx_w  PWDwwm_fffxxx4w121!@
+    127.0.0.1:53882  wm_3k28jd_w  PW3k28jd_31!@
+weimob-slave
+    10.16.208.2:3305  wm_fffxxx_w  PWDwwm_fffxxx4w121!@
+    10.16.208.3:3309  wm_3k28jd_w  PW3k28jd_31!@
+lanmeishuo-master
+    106.75.50.16  root  PuVslxUmdE6BiuNz
+    106.75.50.193  root  PuVslxUmdE6BiuNz
